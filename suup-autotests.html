@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Автотесты группы СУ+УП">
+    <title>Автотесты группы СУ+УП</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="header"></h1>
+    </header>
+
+    <main>
+        <nav id="toc" aria-label="Навигация по автотестам">
+            <h2>Оглавление</h2>
+            <ul id="tocList">
+                <li>
+                <li><a href="index.html" class="pdf-link">ГЛАВНАЯ</a></li>
+                <li><a href="patches.html" class="pdf-link">ПАТЧИ/РЕЛИЗЫ</a></li>
+                <a href="autotests.html" class="pdf-link">АВТОТЕСТЫ</a>
+                <ul>
+                    <li><span class="pdf-link inactive">ГРУППА СУ+УП</span></li>
+                </ul>
+                </li>
+                <li><a href="errors.html" class="pdf-link">ОШИБКИ</a></li>
+            </ul>
+        </nav>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Значение цветов в плане</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="background-color: #FFCCCC;">Не готово</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #FFE699;">Готово, но ожидает доработок</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #9DC3E6;">Новое, выполняется</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #A9D18E;">Готово</td>
+                </tr>
+            </tbody>
+        </table>
+        <section id="suup-autotests" class="pdf-section"></section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

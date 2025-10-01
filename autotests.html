@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Отчёт по автотестам">
+    <title>Автотесты</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="header"></h1>
+    </header>
+
+    <main>
+        <nav id="toc" aria-label="Основная навигация">
+            <h2>Оглавление</h2>
+            <ul id="tocList">
+                <li><a href="index.html" class="pdf-link">ГЛАВНАЯ</a></li>
+                <li><a href="patches.html" class="pdf-link">ПАТЧИ/РЕЛИЗЫ</a></li>
+                <li>
+                    <span class="pdf-link inactive">АВТОТЕСТЫ</span>
+                    <ul>
+                        <li><a href="#kdGroup" class="pdf-link">Группа КД</a></li>
+                        <li><a href="#tppGroup" class="pdf-link">Группа ТПП</a></li>
+                        <li><a href="#planGroup" class="pdf-link">Группа Планирование</a></li>
+                        <li><a href="suup-autotests.html" class="pdf-link">ГРУППА СУ+УП</a></li>
+                    </ul>
+                </li>
+                <li><a href="errors.html" class="pdf-link">ОШИБКИ</a></li>
+            </ul>
+        </nav>
+
+        <section id="autotests" class="pdf-section"></section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

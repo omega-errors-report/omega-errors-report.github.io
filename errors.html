@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Отчёт по ошибкам">
+    <title>Ошибки</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="header"></h1>
+    </header>
+
+    <main>
+        <nav id="toc" aria-label="Навигация по ошибкам">
+            <h2>Оглавление</h2>
+            <ul id="tocList">
+                <li><a href="index.html" class="pdf-link">ГЛАВНАЯ</a></li>
+                <li><a href="patches.html" class="pdf-link">ПАТЧИ/РЕЛИЗЫ</a></li>
+                <li><a href="autotests.html" class="pdf-link">АВТОТЕСТЫ</a></li>
+                <li>
+                    <span class="pdf-link inactive">ОШИБКИ</span>
+                    <ul>
+                        <li><a href="#errors_stats_zakazchik" class="pdf-link">Ошибки по категориям (заказчики)</a></li>
+                        <li><a href="#errors_stats_int" class="pdf-link">Ошибки по категориям (внутренние)</a></li>
+                        <li><a href="error-categories.html" class="pdf-link">ОШИБКИ ПО КАТЕГОРИЯМ (ЗАКАЗЧИКИ) - ВЫБОРОЧНО</a></li>
+                        <li><a href="zakazchik-errors.html" class="pdf-link">ОШИБКИ ЗАКАЗЧИКОВ</a></li>
+                        <li><a href="int-errors.html" class="pdf-link">ОШИБКИ ВНУТРЕННИЕ</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <section id="errors" class="pdf-section"></section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
