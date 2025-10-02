@@ -1,5 +1,5 @@
 export function renderAutotests(autotests, period) {
-  document.getElementById('header').innerHTML = `АВТОЕТСТЫ (${period.current})`;
+  document.getElementById('header').innerHTML = `АВТОТЕСТЫ (${period.current})`;
 
   let html = ``;
 
