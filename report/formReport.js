@@ -5,8 +5,8 @@ const path = require('path');
 const prevTasks = getTasksData('prev_quarter.csv');
 const currTasks = getTasksData('current_quarter.csv');
 
-const currentQuarter = '2 квартал 2025';
-const  prevQuarter = '3 квартал 2025';
+const currentQuarter = '3 квартал 2025';
+const prevQuarter = '2 квартал 2025';
 
 // Категории ошибок
 const categories = [
