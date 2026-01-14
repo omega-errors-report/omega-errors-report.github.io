@@ -1,0 +1,127 @@
+[
+    {
+        "project": "АвтоВАЗ",
+        "patches": 8,
+        "releases": 0
+    },
+    {
+        "project": "Арсенал",
+        "patches": 10,
+        "releases": 0
+    },
+    {
+        "project": "БобрАгромаш",
+        "patches": 4,
+        "releases": 0
+    },
+    {
+        "project": "ГЕФЕСТ",
+        "patches": 2,
+        "releases": 0
+    },
+    {
+        "project": "Завод №9",
+        "patches": 11,
+        "releases": 0
+    },
+    {
+        "project": "Заслон",
+        "patches": 18,
+        "releases": 0
+    },
+    {
+        "project": "КБ Радар",
+        "patches": 5,
+        "releases": 0
+    },
+    {
+        "project": "КБТМ ОМСК",
+        "patches": 4,
+        "releases": 4
+    },
+    {
+        "project": "КОРПУС",
+        "patches": 6,
+        "releases": 0
+    },
+    {
+        "project": "Красный борец",
+        "patches": 3,
+        "releases": 1
+    },
+    {
+        "project": "КУПОЛ",
+        "patches": 5,
+        "releases": 0
+    },
+    {
+        "project": "КурганДорМаш",
+        "patches": 3,
+        "releases": 0
+    },
+    {
+        "project": "МАЗ",
+        "patches": 3,
+        "releases": 0
+    },
+    {
+        "project": "МТЗ",
+        "patches": 11,
+        "releases": 0
+    },
+    {
+        "project": "МЭТЗ",
+        "patches": 19,
+        "releases": 1
+    },
+    {
+        "project": "Пассат",
+        "patches": 2,
+        "releases": 0
+    },
+    {
+        "project": "Планар",
+        "patches": 4,
+        "releases": 1
+    },
+    {
+        "project": "РХМ",
+        "patches": 3,
+        "releases": 0
+    },
+    {
+        "project": "Салют",
+        "patches": 12,
+        "releases": 0
+    },
+    {
+        "project": "Сейсмотехника",
+        "patches": 2,
+        "releases": 0
+    },
+    {
+        "project": "СЭПО",
+        "patches": 4,
+        "releases": 0
+    },
+    {
+        "project": "УВЗ",
+        "patches": 5,
+        "releases": 1
+    },
+    {
+        "project": "УЛКМ",
+        "patches": 12,
+        "releases": 0
+    },
+    {
+        "project": "УТТЗ",
+        "patches": 1,
+        "releases": 0
+    },
+    {
+        "project": "Фреор",
+        "patches": 6,
+        "releases": 0
+    }
+]
